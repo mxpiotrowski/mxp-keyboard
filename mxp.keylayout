@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2022-09-28 at 23:37 (CEST)-->
+<!--Last edited by Ukelele version 359 on 2022-09-28 at 23:48 (CEST)-->
 <keyboard group="126" id="-29039" name="mxp" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
@@ -411,7 +411,7 @@
             <key code="8" action="ç"/>
             <key code="9" action="dead_caron"/>
             <!-- v: dead caron -->
-            <key code="10" output="|"/>
+            <key code="10" output="„"/>
             <key code="11" action="x"/>
             <key code="12" output="@"/>
             <key code="13" action="~"/>
@@ -536,7 +536,7 @@
             <key code="7" output="›"/>
             <key code="8" action="Ç"/>
             <key code="9" output=""/>
-            <key code="10" output="±"/>
+            <key code="10" output="“"/>
             <key code="11" output=""/>
             <key code="12" output=""/>
             <key code="13" output="¬"/>
@@ -569,7 +569,7 @@
             <key code="40" output=""/>
             <key code="41" output="Œ"/>
             <key code="42" output="|"/>
-            <key code="43" output="„"/>
+            <key code="43" output=""/>
             <key code="44" output="—"/>
             <key code="45" output=""/>
             <key code="46" output="¥"/>

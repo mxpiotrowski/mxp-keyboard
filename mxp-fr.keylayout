@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2022-09-28 at 23:48 (CEST)-->
-<keyboard group="126" id="-29039" name="mxp" maxout="2">
+<!--Last edited by Ukelele version 359 on 2022-10-23 at 17:32 (CEST)-->
+<keyboard group="126" id="-859" name="mxp-fr" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
     </layouts>
@@ -1532,7 +1532,7 @@
             <when state="none" next="ACUTE ACCENT"/>
         </action>
         <action id="Ä">
-            <when state="none" output="Ä"/>
+            <when state="none" output="À"/>
             <when state="ACUTE ACCENT" output="Ǽ"/>
             <when state="MACRON" output="Ǟ"/>
         </action>
@@ -1549,7 +1549,7 @@
             <when state="ACUTE ACCENT" output="Ḉ"/>
         </action>
         <action id="Ö">
-            <when state="none" output="Ö"/>
+            <when state="none" output="É"/>
             <when state="MACRON" output="Ȫ"/>
         </action>
         <action id="Ø">
@@ -1557,13 +1557,13 @@
             <when state="ACUTE ACCENT" output="Ǿ"/>
         </action>
         <action id="Ü">
-            <when state="none" output="Ü"/>
+            <when state="none" output="È"/>
             <when state="CARON" output="Ǚ"/>
             <when state="GRAVE ACCENT" output="Ǜ"/>
             <when state="MACRON" output="Ǖ"/>
         </action>
         <action id="ä">
-            <when state="none" output="ä"/>
+            <when state="none" output="à"/>
             <when state="ACUTE ACCENT" output="ǽ"/>
             <when state="MACRON" output="ǟ"/>
         </action>
@@ -1580,7 +1580,7 @@
             <when state="ACUTE ACCENT" output="ḉ"/>
         </action>
         <action id="ö">
-            <when state="none" output="ö"/>
+            <when state="none" output="é"/>
             <when state="MACRON" output="ȫ"/>
         </action>
         <action id="÷">
@@ -1591,7 +1591,7 @@
             <when state="ACUTE ACCENT" output="ǿ"/>
         </action>
         <action id="ü">
-            <when state="none" output="ü"/>
+            <when state="none" output="è"/>
             <when state="CARON" output="ǚ"/>
             <when state="GRAVE ACCENT" output="ǜ"/>
             <when state="MACRON" output="ǖ"/>

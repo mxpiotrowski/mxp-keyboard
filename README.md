@@ -2,7 +2,10 @@
 
 Custom keyboard layout for macOS.
 
-Based on a German layout (without deadkeys); except for Alt-l, which produces `ł` rather than `@`, all keys correspond to their labels.
+Based on a German layout without deadkeys.  Two versions:
+
+- mxp-de: for German
+- mxp-fr: for French, where é, à, and è replace ö, ä, ü
 
 Deadkeys for producing a large number of accented characters are available using Alt (the arrangement of the first row ultimately goes back to HP-UX):
 

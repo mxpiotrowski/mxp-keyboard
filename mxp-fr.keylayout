@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2022-10-23 at 17:32 (CEST)-->
-<keyboard group="126" id="-859" name="mxp-fr" maxout="2">
+<!--Last edited by Ukelele version 359 on 2022-11-28 at 02:44 (CET)-->
+<keyboard group="126" id="-19858" name="mxp-fr" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
     </layouts>
@@ -315,15 +315,15 @@
             <key code="30" output="+"/>
             <key code="31" action="O"/>
             <key code="32" action="U"/>
-            <key code="33" output="Ü"/>
+            <key code="33" output="È"/>
             <key code="34" action="I"/>
             <key code="35" output="P"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="L"/>
             <key code="38" output="J"/>
-            <key code="39" output="Ä"/>
+            <key code="39" output="À"/>
             <key code="40" output="K"/>
-            <key code="41" output="Ö"/>
+            <key code="41" output="É"/>
             <key code="42" output="#"/>
             <key code="43" output=","/>
             <key code="44" output="-"/>

@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2022-11-28 at 02:44 (CET)-->
-<keyboard group="126" id="-19858" name="mxp-fr" maxout="2">
+<!--Last edited by Ukelele version 359 on 2023-09-04 at 19:27 (CEST)-->
+<keyboard group="126" id="-27792" name="mxp-fr" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
     </layouts>
@@ -439,7 +439,7 @@
             <!-- o: dead double acute -->
             <key code="32" action="¨"/>
             <!-- u: dead diaeresis -->
-            <key code="33" output="Ω"/>
+            <key code="33" output="Ω"/>
             <key code="34" action="˜"/>
             <!-- i: dead tilde -->
             <key code="35" output="þ"/>
@@ -535,7 +535,7 @@
             <key code="6" output="‹"/>
             <key code="7" output="›"/>
             <key code="8" action="Ç"/>
-            <key code="9" output=""/>
+            <key code="9" output="◊"/>
             <key code="10" output="“"/>
             <key code="11" output=""/>
             <key code="12" output=""/>

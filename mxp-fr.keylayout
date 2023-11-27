@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 359 on 2023-09-04 at 19:27 (CEST)-->
-<keyboard group="126" id="-27792" name="mxp-fr" maxout="2">
+<!--Last edited by Ukelele version 359 on 2023-11-27 at 22:59 (CET)-->
+<keyboard group="126" id="-32462" name="mxp-fr" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
     </layouts>
@@ -69,7 +69,7 @@
             <key code="24" output="&#x0027;"/>
             <key code="25" output="9"/>
             <key code="26" output="7"/>
-            <key code="27" output="ß"/>
+            <key code="27" output="ù"/>
             <key code="28" output="8"/>
             <key code="29" output="0"/>
             <key code="30" action="+"/>
@@ -527,7 +527,7 @@
         </keyMap>
         <keyMap index="4">
             <key code="0" action="Å"/>
-            <key code="1" output=""/>
+            <key code="1" output="ſ"/>
             <key code="2" output="Ð"/>
             <key code="3" output=""/>
             <key code="4" output=""/>
@@ -1597,7 +1597,7 @@
             <when state="MACRON" output="ǖ"/>
         </action>
         <action id="ſ">
-            <when state="none" output="ſ"/>
+            <when state="none" output="ß"/>
             <when state="DOT ABOVE" output="ẛ"/>
         </action>
         <action id="ƒ">

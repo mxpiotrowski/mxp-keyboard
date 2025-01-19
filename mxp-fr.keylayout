@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 396 on 2024-09-11 at 11:28 (CEST)-->
-<keyboard group="126" id="-32347" name="mxp-fr" maxout="2">
+<!--Last edited by Ukelele version 396 on 2025-01-19 at 19:29 (CET)-->
+<keyboard group="126" id="-19195" name="mxp-fr" maxout="2">
     <layouts>
         <layout first="0" last="0" mapSet="ANSI" modifiers="commonModifiers"/>
     </layouts>
@@ -31,12 +31,12 @@
         <keyMapSelect mapIndex="7">
             <modifier keys="anyShift? caps? anyOption? anyControl"/>
             <modifier keys="anyShift? anyOption? command? anyControl"/>
-            <modifier keys="anyShift caps anyOption command rightControl"/>
-            <modifier keys="anyShift caps rightOption? command anyControl"/>
-            <modifier keys="rightShift? caps anyOption command anyControl"/>
-            <modifier keys="anyShift caps anyOption command control"/>
-            <modifier keys="anyShift caps option? command anyControl"/>
-            <modifier keys="shift? caps anyOption command anyControl"/>
+            <modifier keys="anyShift caps anyOption command"/>
+            <modifier keys="anyShift caps command anyControl"/>
+            <modifier keys="caps anyOption command anyControl"/>
+            <modifier keys="anyShift caps anyOption command anyControl"/>
+            <modifier keys="anyShift caps anyOption? command anyControl"/>
+            <modifier keys="anyShift? caps anyOption command anyControl"/>
             <modifier keys="caps? anyOption? command? anyControl"/>
         </keyMapSelect>
     </modifierMap>
@@ -46,13 +46,13 @@
             <key code="1" action="s"/>
             <key code="2" action="d"/>
             <key code="3" action="f"/>
-            <key code="4" action="h"/>
+            <key code="4" action="h 1"/>
             <key code="5" action="g"/>
             <key code="6" action="y"/>
             <key code="7" action="x 1"/>
             <key code="8" action="c"/>
             <key code="9" action="v"/>
-            <key code="10" output="^"/>
+            <key code="10" action="^ 4"/>
             <key code="11" action="b"/>
             <key code="12" output="q"/>
             <key code="13" action="w"/>
@@ -60,18 +60,18 @@
             <key code="15" action="r"/>
             <key code="16" action="z"/>
             <key code="17" action="t"/>
-            <key code="18" output="1"/>
-            <key code="19" output="2"/>
-            <key code="20" output="3"/>
-            <key code="21" output="4"/>
-            <key code="22" output="6"/>
-            <key code="23" output="5"/>
-            <key code="24" output="&#x0027;"/>
-            <key code="25" output="9"/>
-            <key code="26" output="7"/>
-            <key code="27" output="ß"/>
-            <key code="28" output="8"/>
-            <key code="29" output="0"/>
+            <key code="18" action="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="24" action="&#x0027;"/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
+            <key code="27" action="ß"/>
+            <key code="28" action="8"/>
+            <key code="29" action="0"/>
             <key code="30" action="+"/>
             <key code="31" action="o"/>
             <key code="32" action="u"/>
@@ -92,7 +92,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action=" "/>
-            <key code="50" output="&#x003C;"/>
+            <key code="50" action="&#x003C;"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -108,7 +108,7 @@
             <!-- gap, 68 -->
             <key code="69" output="+"/>
             <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
+            <key code="71" action="&#x001B;"/>
             <key code="72" output="&#x001F;"/>
             <!-- gap, 73 through 74 -->
             <key code="75" output="/"/>
@@ -118,7 +118,7 @@
             <!-- gap, 79 through 80 -->
             <key code="79" output="&#x0010;"/>
             <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
+            <key code="81" action="= 2"/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
             <key code="84" output="2"/>
@@ -283,23 +283,23 @@
         </keyMap>
         <keyMap index="2">
             <key code="0" action="A"/>
-            <key code="1" output="S"/>
-            <key code="2" output="D"/>
-            <key code="3" output="F"/>
-            <key code="4" output="H"/>
-            <key code="5" output="G"/>
+            <key code="1" action="S 1"/>
+            <key code="2" action="D 1"/>
+            <key code="3" action="F 1"/>
+            <key code="4" action="H 1"/>
+            <key code="5" action="G 1"/>
             <key code="6" action="Y"/>
-            <key code="7" output="X"/>
+            <key code="7" action="X 1"/>
             <key code="8" action="C"/>
             <key code="9" output="V"/>
             <key code="10" output="^"/>
             <key code="11" output="B"/>
             <key code="12" output="Q"/>
-            <key code="13" output="W"/>
+            <key code="13" action="W 1"/>
             <key code="14" action="E"/>
-            <key code="15" output="R"/>
-            <key code="16" output="Z"/>
-            <key code="17" output="T"/>
+            <key code="15" action="R 1"/>
+            <key code="16" action="Z 1"/>
+            <key code="17" action="T 1"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -317,7 +317,7 @@
             <key code="32" action="U"/>
             <key code="33" output="È"/>
             <key code="34" action="I"/>
-            <key code="35" output="P"/>
+            <key code="35" action="P 1"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="L"/>
             <key code="38" output="J"/>
@@ -328,7 +328,7 @@
             <key code="43" output=","/>
             <key code="44" output="-"/>
             <key code="45" action="N"/>
-            <key code="46" output="M"/>
+            <key code="46" action="M 1"/>
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action=" "/>
@@ -411,9 +411,9 @@
             <key code="8" action="ç"/>
             <key code="9" action="dead_caron"/>
             <!-- v: dead caron -->
-            <key code="10" output="„"/>
+            <key code="10" output=""/>
             <key code="11" action="x"/>
-            <key code="12" output="@"/>
+            <key code="12" output="“"/>
             <key code="13" action="~"/>
             <key code="14" output="€"/>
             <key code="15" action="´"/>
@@ -422,13 +422,13 @@
             <!-- z: dead circumflex -->
             <key code="17" action="`"/>
             <!-- t: dead grave -->
-            <key code="18" output="¡"/>
+            <key code="18" output=""/>
             <key code="19" output="@"/>
             <key code="20" output="#"/>
-            <key code="21" output="&#x003C;"/>
-            <key code="22" output="^"/>
-            <key code="23" output="&#x003E;"/>
-            <key code="24" output="“"/>
+            <key code="21" output="£"/>
+            <key code="22" output="¿"/>
+            <key code="23" output="¡"/>
+            <key code="24" output="’"/>
             <key code="25" output="]"/>
             <key code="26" output="{"/>
             <key code="27" output="\"/>
@@ -536,9 +536,9 @@
             <key code="7" output="›"/>
             <key code="8" action="Ç"/>
             <key code="9" output="◊"/>
-            <key code="10" output="“"/>
-            <key code="11" output=""/>
-            <key code="12" output=""/>
+            <key code="10" output=""/>
+            <key code="11" output="□"/>
+            <key code="12" output="”"/>
             <key code="13" output="¬"/>
             <key code="14" output=""/>
             <key code="15" output=""/>
@@ -550,11 +550,11 @@
             <key code="21" output="⁻"/>
             <key code="22" output=""/>
             <key code="23" output="‰"/>
-            <key code="24" output="”"/>
-            <key code="25" output=""/>
+            <key code="24" output="‘"/>
+            <key code="25" output="⟩"/>
             <key code="26" output="\"/>
-            <key code="27" output="¿"/>
-            <key code="28" output=""/>
+            <key code="27" output="≠"/>
+            <key code="28" output="⟨"/>
             <key code="29" output="÷"/>
             <key code="30" output="×"/>
             <key code="31" action="Ø"/>
@@ -571,8 +571,8 @@
             <key code="42" output="|"/>
             <key code="43" output=""/>
             <key code="44" output="—"/>
-            <key code="45" output=""/>
-            <key code="46" output="¥"/>
+            <key code="45" output="␣"/>
+            <key code="46" output="‌"/>
             <key code="47" output="·"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
@@ -645,50 +645,50 @@
         </keyMap>
         <keyMap index="5">
             <key code="0" output="Å"/>
-            <key code="1" output=""/>
+            <key code="1" action="action"/>
             <key code="2" output="Ð"/>
-            <key code="3" output=""/>
+            <key code="3" action="RING ABOVE"/>
             <key code="4" action="Superscript letters"/>
-            <key code="5" output="©"/>
+            <key code="5" action="MACRON 1"/>
             <key code="6" output="«"/>
             <key code="7" output="»"/>
             <key code="8" output="Ç"/>
             <key code="9" action="CARON"/>
-            <key code="10" output="¬"/>
+            <key code="10" action="¬"/>
             <key code="11" action="BREVE"/>
-            <key code="12" output="@"/>
-            <key code="13" output="~"/>
+            <key code="12" output="“"/>
+            <key code="13" action="~ 2"/>
             <key code="14" output="€"/>
             <key code="15" action="ACUTE ACCENT"/>
             <key code="16" action="CIRCUMFLEX"/>
             <key code="17" action="GRAVE ACCENT"/>
-            <key code="18" output="¡"/>
+            <key code="18" action="¡"/>
             <key code="19" output="@"/>
             <key code="20" output="#"/>
-            <key code="21" output="¢"/>
-            <key code="22" output="|"/>
-            <key code="23" output="‰"/>
-            <key code="24" output="“"/>
+            <key code="21" action="¼"/>
+            <key code="22" output="¿"/>
+            <key code="23" output="¡"/>
+            <key code="24" output="’"/>
             <key code="25" output="]"/>
             <key code="26" output="{"/>
             <key code="27" output="\"/>
             <key code="28" output="["/>
             <key code="29" output="}"/>
-            <key code="30" output="~"/>
-            <key code="31" action="DOUBLE ACUTE"/>
+            <key code="30" output="±"/>
+            <key code="31" output="Ø"/>
             <key code="32" action="DIAERESIS"/>
-            <key code="33" output=""/>
+            <key code="33" output="Ω"/>
             <key code="34" action="TILDE"/>
             <key code="35" output="Þ"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="Ł"/>
-            <key code="38" output="∆"/>
+            <key code="38" action="DOUBLE ACUTE 3"/>
             <key code="39" output="Æ"/>
             <key code="40" action="CEDILLA/COMMA BELOW"/>
             <key code="41" output="Œ"/>
             <key code="42" output="\"/>
             <key code="43" action="CEDILLA/COMMA BELOW 1"/>
-            <key code="44" action="MACRON"/>
+            <key code="44" output="–"/>
             <key code="45" action="TILDE 1"/>
             <key code="46" output="µ"/>
             <key code="47" action="DOT ABOVE"/>
@@ -1007,42 +1007,133 @@
         </keyMap>
     </keyMapSet>
     <actions>
+        <action id="&#x001B;">
+            <when state="none" output="&#x001B;"/>
+        </action>
         <action id=" ">
             <when state="none" output=" "/>
-            <when state="ACUTE ACCENT" output="´"/>
-            <when state="BREVE" output="˘"/>
-            <when state="CARON" output="ˇ"/>
-            <when state="CEDILLA/COMMA BELOW" output="¸"/>
-            <when state="CIRCUMFLEX" output="ˆ"/>
-            <when state="DIAERESIS" output="¨"/>
-            <when state="DOUBLE ACUTE" output="˝"/>
-            <when state="GRAVE ACCENT" output="`"/>
-            <when state="OGONEK" output="˛"/>
+            <when state="ACUTE ACCENT" output="́"/>
+            <when state="BREVE" output="̆"/>
+            <when state="CARON" output="̌"/>
+            <when state="CEDILLA/COMMA BELOW" output="̧"/>
+            <when state="CIRCUMFLEX" output="̂"/>
+            <when state="DIAERESIS" output="̈"/>
+            <when state="DOT ABOVE" output="̇"/>
+            <when state="DOUBLE ACUTE" output="̋"/>
+            <when state="GRAVE ACCENT" output="̀"/>
+            <when state="MACRON" output="̄"/>
+            <when state="OGONEK" output="̨"/>
             <when state="RING ABOVE" output="̊"/>
-            <when state="TILDE" output="˜"/>
+            <when state="TILDE" output="̃"/>
         </action>
         <action id=" ͯ">
             <when state="none" next="Superscript letters"/>
         </action>
+        <action id="&#x0027;">
+            <when state="none" output="&#x0027;"/>
+        </action>
         <action id="+">
             <when state="none" output="+"/>
+            <when state="CARON" output="₊"/>
+            <when state="CIRCUMFLEX" output="⁺"/>
+            <when state="Modifier letters" output="⁺"/>
             <when state="TILDE" output="⨤"/>
-        </action>
-        <action id=",">
-            <when state="none" next="CEDILLA/COMMA BELOW"/>
         </action>
         <action id="-">
             <when state="none" output="-"/>
+            <when state="CARON" output="₋"/>
+            <when state="CIRCUMFLEX" output="⁻"/>
             <when state="DIAERESIS" output="⸚"/>
+            <when state="Modifier letters" output="⁻"/>
             <when state="TILDE" output="≂"/>
+        </action>
+        <action id="0">
+            <when state="none" output="0"/>
+            <when state="CARON" output="₀"/>
+            <when state="CIRCUMFLEX" output="⁰"/>
+            <when state="Modifier letters" output="⁰"/>
+        </action>
+        <action id="1">
+            <when state="none" output="1"/>
+            <when state="CARON" output="₁"/>
+            <when state="CIRCUMFLEX" output="¹"/>
+            <when state="Modifier letters" output="¹"/>
+            <when state="RING ABOVE" output="①"/>
+        </action>
+        <action id="2">
+            <when state="none" output="2"/>
+            <when state="CARON" output="₂"/>
+            <when state="CIRCUMFLEX" output="²"/>
+            <when state="Modifier letters" output="²"/>
+            <when state="RING ABOVE" output="②"/>
+        </action>
+        <action id="3">
+            <when state="none" output="3"/>
+            <when state="CARON" output="₃"/>
+            <when state="CIRCUMFLEX" output="³"/>
+            <when state="Modifier letters" output="³"/>
+            <when state="RING ABOVE" output="③"/>
+        </action>
+        <action id="4">
+            <when state="none" output="4"/>
+            <when state="CARON" output="₄"/>
+            <when state="CIRCUMFLEX" output="⁴"/>
+            <when state="Modifier letters" output="⁴"/>
+            <when state="RING ABOVE" output="④"/>
+        </action>
+        <action id="5">
+            <when state="none" output="5"/>
+            <when state="CARON" output="₅"/>
+            <when state="CIRCUMFLEX" output="⁵"/>
+            <when state="Modifier letters" output="⁵"/>
+            <when state="RING ABOVE" output="⑤"/>
+        </action>
+        <action id="6">
+            <when state="none" output="6"/>
+            <when state="CARON" output="₆"/>
+            <when state="CIRCUMFLEX" output="⁶"/>
+            <when state="Modifier letters" output="⁶"/>
+            <when state="RING ABOVE" output="⑥"/>
+        </action>
+        <action id="7">
+            <when state="none" output="7"/>
+            <when state="CARON" output="₇"/>
+            <when state="CIRCUMFLEX" output="⁷"/>
+            <when state="Modifier letters" output="⁷"/>
+            <when state="RING ABOVE" output="⑦"/>
+        </action>
+        <action id="8">
+            <when state="none" output="8"/>
+            <when state="CARON" output="₈"/>
+            <when state="CIRCUMFLEX" output="⁸"/>
+            <when state="Modifier letters" output="⁸"/>
+            <when state="RING ABOVE" output="⑧"/>
+        </action>
+        <action id="9">
+            <when state="none" output="9"/>
+            <when state="CARON" output="₉"/>
+            <when state="CIRCUMFLEX" output="⁹"/>
+            <when state="Modifier letters" output="⁹"/>
+            <when state="RING ABOVE" output="⑨"/>
+        </action>
+        <action id="&#x003C;">
+            <when state="none" output="&#x003C;"/>
+            <when state="MACRON" output="≤"/>
         </action>
         <action id="=">
             <when state="none" output="="/>
+            <when state="CIRCUMFLEX" output="≙"/>
+            <when state="MACRON" output="≡"/>
+            <when state="RING ABOVE" output="≗"/>
             <when state="TILDE" output="≅"/>
+        </action>
+        <action id="= 2">
+            <when state="none" output="="/>
         </action>
         <action id="&#x003E;">
             <when state="none" output="&#x003E;"/>
             <when state="DIAERESIS" output="⍩"/>
+            <when state="MACRON" output="≥"/>
         </action>
         <action id="A">
             <when state="none" output="A"/>
@@ -1095,13 +1186,17 @@
             <when state="CEDILLA/COMMA BELOW" output="Ḑ"/>
             <when state="DOT ABOVE" output="Ḋ"/>
         </action>
+        <action id="D 1">
+            <when state="none" output="D"/>
+            <when state="DOT ABOVE" output="Ḋ"/>
+        </action>
         <action id="DIAERESIS">
             <when state="none" next="DIAERESIS"/>
         </action>
         <action id="DOT ABOVE">
             <when state="none" next="DOT ABOVE"/>
         </action>
-        <action id="DOUBLE ACUTE">
+        <action id="DOUBLE ACUTE 3">
             <when state="none" next="DOUBLE ACUTE"/>
         </action>
         <action id="E">
@@ -1122,6 +1217,10 @@
             <when state="none" output="F"/>
             <when state="DOT ABOVE" output="Ḟ"/>
         </action>
+        <action id="F 1">
+            <when state="none" output="F"/>
+            <when state="DOT ABOVE" output="Ḟ"/>
+        </action>
         <action id="G">
             <when state="none" output="G"/>
             <when state="ACUTE ACCENT" output="Ǵ"/>
@@ -1132,6 +1231,10 @@
             <when state="DOT ABOVE" output="Ġ"/>
             <when state="MACRON" output="Ḡ"/>
         </action>
+        <action id="G 1">
+            <when state="none" output="G"/>
+            <when state="DOT ABOVE" output="Ġ"/>
+        </action>
         <action id="GRAVE ACCENT">
             <when state="none" next="GRAVE ACCENT"/>
         </action>
@@ -1141,6 +1244,10 @@
             <when state="CEDILLA/COMMA BELOW" output="Ḩ"/>
             <when state="CIRCUMFLEX" output="Ĥ"/>
             <when state="DIAERESIS" output="Ḧ"/>
+            <when state="DOT ABOVE" output="Ḣ"/>
+        </action>
+        <action id="H 1">
+            <when state="none" output="H"/>
             <when state="DOT ABOVE" output="Ḣ"/>
         </action>
         <action id="I">
@@ -1176,7 +1283,11 @@
             <when state="none" output="M"/>
             <when state="DOT ABOVE" output="Ṁ"/>
         </action>
-        <action id="MACRON">
+        <action id="M 1">
+            <when state="none" output="M"/>
+            <when state="DOT ABOVE" output="Ṁ"/>
+        </action>
+        <action id="MACRON 1">
             <when state="none" next="MACRON"/>
         </action>
         <action id="N">
@@ -1207,12 +1318,23 @@
             <when state="ACUTE ACCENT" output="Ṕ"/>
             <when state="DOT ABOVE" output="Ṗ"/>
         </action>
+        <action id="P 1">
+            <when state="none" output="P"/>
+            <when state="DOT ABOVE" output="Ṗ"/>
+        </action>
         <action id="R">
             <when state="none" output="R"/>
             <when state="ACUTE ACCENT" output="Ŕ"/>
             <when state="CARON" output="Ř"/>
             <when state="CEDILLA/COMMA BELOW" output="Ŗ"/>
             <when state="DOT ABOVE" output="Ṙ"/>
+        </action>
+        <action id="R 1">
+            <when state="none" output="R"/>
+            <when state="DOT ABOVE" output="Ṙ"/>
+        </action>
+        <action id="RING ABOVE">
+            <when state="none" next="RING ABOVE"/>
         </action>
         <action id="S">
             <when state="none" output="S"/>
@@ -1222,6 +1344,10 @@
             <when state="CIRCUMFLEX" output="Ŝ"/>
             <when state="DOT ABOVE" output="Ṡ"/>
         </action>
+        <action id="S 1">
+            <when state="none" output="S"/>
+            <when state="DOT ABOVE" output="Ṡ"/>
+        </action>
         <action id="Superscript letters">
             <when state="none" next="Superscript letters"/>
         </action>
@@ -1229,6 +1355,10 @@
             <when state="none" output="T"/>
             <when state="CARON" output="Ť"/>
             <when state="CEDILLA/COMMA BELOW" output="Ț"/>
+            <when state="DOT ABOVE" output="Ṫ"/>
+        </action>
+        <action id="T 1">
+            <when state="none" output="T"/>
             <when state="DOT ABOVE" output="Ṫ"/>
         </action>
         <action id="TILDE">
@@ -1263,9 +1393,17 @@
             <when state="DOT ABOVE" output="Ẇ"/>
             <when state="GRAVE ACCENT" output="Ẁ"/>
         </action>
+        <action id="W 1">
+            <when state="none" output="W"/>
+            <when state="DOT ABOVE" output="Ẇ"/>
+        </action>
         <action id="X">
             <when state="none" output="X"/>
             <when state="DIAERESIS" output="Ẍ"/>
+            <when state="DOT ABOVE" output="Ẋ"/>
+        </action>
+        <action id="X 1">
+            <when state="none" output="X"/>
             <when state="DOT ABOVE" output="Ẋ"/>
         </action>
         <action id="Y">
@@ -1284,8 +1422,17 @@
             <when state="CARON" output="Ž"/>
             <when state="DOT ABOVE" output="Ż"/>
         </action>
+        <action id="Z 1">
+            <when state="none" output="Z"/>
+            <when state="DOT ABOVE" output="Ż"/>
+        </action>
+        <action id="^ 4">
+            <when state="none" output="^"/>
+            <when state="Modifier letters" output="^"/>
+        </action>
         <action id="`">
             <when state="none" next="GRAVE ACCENT"/>
+            <when state="GRAVE ACCENT" output="`"/>
         </action>
         <action id="a">
             <when state="none" output="a"/>
@@ -1297,15 +1444,22 @@
             <when state="DOT ABOVE" output="ȧ"/>
             <when state="GRAVE ACCENT" output="à"/>
             <when state="MACRON" output="ā"/>
+            <when state="Modifier letters" output="ᵃ"/>
             <when state="OGONEK" output="ą"/>
             <when state="RING ABOVE" output="å"/>
             <when state="Superscript letters" output="ͣ"/>
             <when state="TILDE" output="ã"/>
         </action>
+        <action id="action">
+            <when state="none" output=""/>
+            <when state="DOT ABOVE" output="ẛ"/>
+        </action>
         <action id="b">
             <when state="none" output="b"/>
             <when state="ACUTE ACCENT" output="ḿ"/>
             <when state="DOT ABOVE" output="ḃ"/>
+            <when state="Modifier letters" output="ᵇ"/>
+            <when state="Superscript letters" output="ᷨ"/>
         </action>
         <action id="c">
             <when state="none" output="c"/>
@@ -1314,6 +1468,8 @@
             <when state="CEDILLA/COMMA BELOW" output="ç"/>
             <when state="CIRCUMFLEX" output="ĉ"/>
             <when state="DOT ABOVE" output="ċ"/>
+            <when state="Modifier letters" output="ᶜ"/>
+            <when state="RING ABOVE" output="©"/>
             <when state="Superscript letters" output="ͨ"/>
         </action>
         <action id="d">
@@ -1321,13 +1477,16 @@
             <when state="CARON" output="ď"/>
             <when state="CEDILLA/COMMA BELOW" output="ḑ"/>
             <when state="DOT ABOVE" output="ḋ"/>
+            <when state="Modifier letters" output="ᵈ"/>
             <when state="Superscript letters" output="ͩ"/>
         </action>
         <action id="dead_caron">
             <when state="none" next="CARON"/>
+            <when state="CARON" output="ˇ"/>
         </action>
         <action id="dead_ogonek">
             <when state="none" next="OGONEK"/>
+            <when state="OGONEK" output="̨"/>
         </action>
         <action id="e">
             <when state="none" output="e"/>
@@ -1340,6 +1499,7 @@
             <when state="DOT ABOVE" output="ė"/>
             <when state="GRAVE ACCENT" output="è"/>
             <when state="MACRON" output="ē"/>
+            <when state="Modifier letters" output="ᵉ"/>
             <when state="OGONEK" output="ę"/>
             <when state="Superscript letters" output="ͤ"/>
             <when state="TILDE" output="ẽ"/>
@@ -1347,6 +1507,8 @@
         <action id="f">
             <when state="none" output="f"/>
             <when state="DOT ABOVE" output="ḟ"/>
+            <when state="Modifier letters" output="ᶠ"/>
+            <when state="Superscript letters" output="ᷫ"/>
         </action>
         <action id="g">
             <when state="none" output="g"/>
@@ -1357,14 +1519,17 @@
             <when state="CIRCUMFLEX" output="ĝ"/>
             <when state="DOT ABOVE" output="ġ"/>
             <when state="MACRON" output="ḡ"/>
+            <when state="Modifier letters" output="ᵍ"/>
+            <when state="Superscript letters" output="ᷚ"/>
         </action>
-        <action id="h">
+        <action id="h 1">
             <when state="none" output="h"/>
             <when state="CARON" output="ȟ"/>
             <when state="CEDILLA/COMMA BELOW" output="ḩ"/>
             <when state="CIRCUMFLEX" output="ĥ"/>
             <when state="DIAERESIS" output="ḧ"/>
             <when state="DOT ABOVE" output="ḣ"/>
+            <when state="Modifier letters" output="ʰ"/>
             <when state="Superscript letters" output="ͪ"/>
         </action>
         <action id="i">
@@ -1377,6 +1542,7 @@
             <when state="DOT ABOVE" output="ı"/>
             <when state="GRAVE ACCENT" output="ì"/>
             <when state="MACRON" output="ī"/>
+            <when state="Modifier letters" output="ⁱ"/>
             <when state="OGONEK" output="į"/>
             <when state="Superscript letters" output="ͥ"/>
             <when state="TILDE" output="ĩ"/>
@@ -1384,22 +1550,28 @@
         <action id="j">
             <when state="none" output="j"/>
             <when state="CIRCUMFLEX" output="ĵ"/>
+            <when state="Modifier letters" output="ʲ"/>
         </action>
         <action id="k">
             <when state="none" output="k"/>
             <when state="ACUTE ACCENT" output="ḱ"/>
             <when state="CARON" output="ǩ"/>
             <when state="CEDILLA/COMMA BELOW" output="ķ"/>
+            <when state="Modifier letters" output="ᵏ"/>
+            <when state="Superscript letters" output="ᷜ"/>
         </action>
         <action id="l">
             <when state="none" output="l"/>
             <when state="ACUTE ACCENT" output="ĺ"/>
             <when state="CARON" output="ľ"/>
             <when state="CEDILLA/COMMA BELOW" output="ļ"/>
+            <when state="Modifier letters" output="ˡ"/>
+            <when state="Superscript letters" output="ᷝ"/>
         </action>
         <action id="m">
             <when state="none" output="m"/>
             <when state="DOT ABOVE" output="ṁ"/>
+            <when state="Modifier letters" output="ᵐ"/>
             <when state="Superscript letters" output="ͫ"/>
         </action>
         <action id="n">
@@ -1409,6 +1581,8 @@
             <when state="CEDILLA/COMMA BELOW" output="ņ"/>
             <when state="DOT ABOVE" output="ṅ"/>
             <when state="GRAVE ACCENT" output="ǹ"/>
+            <when state="Modifier letters" output="ⁿ"/>
+            <when state="Superscript letters" output="ᷠ"/>
             <when state="TILDE" output="ñ"/>
         </action>
         <action id="o">
@@ -1422,6 +1596,7 @@
             <when state="DOUBLE ACUTE" output="ő"/>
             <when state="GRAVE ACCENT" output="ò"/>
             <when state="MACRON" output="ō"/>
+            <when state="Modifier letters" output="ᵒ"/>
             <when state="OGONEK" output="ǫ"/>
             <when state="Superscript letters" output="ͦ"/>
             <when state="TILDE" output="õ"/>
@@ -1430,6 +1605,9 @@
             <when state="none" output="p"/>
             <when state="ACUTE ACCENT" output="ṕ"/>
             <when state="DOT ABOVE" output="ṗ"/>
+            <when state="Modifier letters" output="ᵖ"/>
+            <when state="RING ABOVE" output="℗"/>
+            <when state="Superscript letters" output="ᷮ"/>
         </action>
         <action id="r">
             <when state="none" output="r"/>
@@ -1437,6 +1615,8 @@
             <when state="CARON" output="ř"/>
             <when state="CEDILLA/COMMA BELOW" output="ŗ"/>
             <when state="DOT ABOVE" output="ṙ"/>
+            <when state="Modifier letters" output="ʳ"/>
+            <when state="RING ABOVE" output="®"/>
             <when state="Superscript letters" output="ͬ"/>
         </action>
         <action id="s">
@@ -1446,6 +1626,8 @@
             <when state="CEDILLA/COMMA BELOW" output="ș"/>
             <when state="CIRCUMFLEX" output="ŝ"/>
             <when state="DOT ABOVE" output="ṡ"/>
+            <when state="Modifier letters" output="ˢ"/>
+            <when state="Superscript letters" output="ᷤ"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
@@ -1453,6 +1635,7 @@
             <when state="CEDILLA/COMMA BELOW" output="ț"/>
             <when state="DIAERESIS" output="ẗ"/>
             <when state="DOT ABOVE" output="ṫ"/>
+            <when state="Modifier letters" output="ᵗ"/>
             <when state="Superscript letters" output="ͭ"/>
         </action>
         <action id="u">
@@ -1465,6 +1648,7 @@
             <when state="DOUBLE ACUTE" output="ű"/>
             <when state="GRAVE ACCENT" output="ù"/>
             <when state="MACRON" output="ū"/>
+            <when state="Modifier letters" output="ᵘ"/>
             <when state="OGONEK" output="ų"/>
             <when state="RING ABOVE" output="ů"/>
             <when state="Superscript letters" output="ͧ"/>
@@ -1472,6 +1656,7 @@
         </action>
         <action id="v">
             <when state="none" output="v"/>
+            <when state="Modifier letters" output="ᵛ"/>
             <when state="Superscript letters" output="ͮ"/>
             <when state="TILDE" output="ṽ"/>
         </action>
@@ -1482,16 +1667,19 @@
             <when state="DIAERESIS" output="ẅ"/>
             <when state="DOT ABOVE" output="ẇ"/>
             <when state="GRAVE ACCENT" output="ẁ"/>
+            <when state="Modifier letters" output="ʷ"/>
             <when state="RING ABOVE" output="ẘ"/>
-            <when state="Superscript letters" output=""/>
+            <when state="Superscript letters" output="ᷱ"/>
         </action>
         <action id="x">
             <when state="none" next="BREVE"/>
+            <when state="BREVE" output="˘"/>
         </action>
         <action id="x 1">
             <when state="none" output="x"/>
             <when state="DIAERESIS" output="ẍ"/>
             <when state="DOT ABOVE" output="ẋ"/>
+            <when state="Modifier letters" output="ˣ"/>
             <when state="Superscript letters" output="ͯ"/>
         </action>
         <action id="y">
@@ -1502,6 +1690,7 @@
             <when state="DOT ABOVE" output="ẏ"/>
             <when state="GRAVE ACCENT" output="ỳ"/>
             <when state="MACRON" output="ȳ"/>
+            <when state="Modifier letters" output="ʸ"/>
             <when state="RING ABOVE" output="ẙ"/>
             <when state="TILDE" output="ỹ"/>
         </action>
@@ -1510,26 +1699,44 @@
             <when state="ACUTE ACCENT" output="ź"/>
             <when state="CARON" output="ž"/>
             <when state="DOT ABOVE" output="ż"/>
+            <when state="Modifier letters" output="ᶻ"/>
+            <when state="Superscript letters" output="ᷦ"/>
         </action>
         <action id="~">
             <when state="none" output="~"/>
             <when state="DIAERESIS" output="⍨"/>
             <when state="DOT ABOVE" output="⩪"/>
+            <when state="MACRON" output="≂"/>
             <when state="RING ABOVE" output="⸛"/>
             <when state="TILDE" output="≈"/>
         </action>
         <action id="~ 1">
             <when state="none" output="±"/>
-            <when state="RING ABOVE" output="⸛"/>
+        </action>
+        <action id="~ 2">
+            <when state="none" output="~"/>
+            <when state="DOT ABOVE" output="⩪"/>
+        </action>
+        <action id="¡">
+            <when state="none" output=""/>
         </action>
         <action id="¨">
             <when state="none" next="DIAERESIS"/>
+            <when state="DIAERESIS" output="¨"/>
         </action>
         <action id="©">
             <when state="none" next="MACRON"/>
+            <when state="MACRON" output="¯"/>
+        </action>
+        <action id="¬">
+            <when state="none" next="Modifier letters"/>
         </action>
         <action id="´">
             <when state="none" next="ACUTE ACCENT"/>
+            <when state="ACUTE ACCENT" output="´"/>
+        </action>
+        <action id="¼">
+            <when state="none" output="£"/>
         </action>
         <action id="Ä">
             <when state="none" output="À"/>
@@ -1562,10 +1769,14 @@
             <when state="GRAVE ACCENT" output="Ǜ"/>
             <when state="MACRON" output="Ǖ"/>
         </action>
+        <action id="ß">
+            <when state="none" output="ß"/>
+        </action>
         <action id="ä">
             <when state="none" output="à"/>
             <when state="ACUTE ACCENT" output="ǽ"/>
             <when state="MACRON" output="ǟ"/>
+            <when state="Superscript letters" output="ᷲ"/>
         </action>
         <action id="å">
             <when state="none" output="å"/>
@@ -1574,17 +1785,17 @@
         <action id="æ">
             <when state="none" output="æ"/>
             <when state="MACRON" output="ǣ"/>
+            <when state="Superscript letters" output="ᷔ"/>
         </action>
         <action id="ç">
             <when state="none" output="ç"/>
             <when state="ACUTE ACCENT" output="ḉ"/>
+            <when state="Superscript letters" output="ᷗ"/>
         </action>
         <action id="ö">
             <when state="none" output="é"/>
             <when state="MACRON" output="ȫ"/>
-        </action>
-        <action id="÷">
-            <when state="none" next="MACRON"/>
+            <when state="Superscript letters" output="ᷳ"/>
         </action>
         <action id="ø">
             <when state="none" output="ø"/>
@@ -1595,37 +1806,39 @@
             <when state="CARON" output="ǚ"/>
             <when state="GRAVE ACCENT" output="ǜ"/>
             <when state="MACRON" output="ǖ"/>
+            <when state="Superscript letters" output="ᷴ"/>
         </action>
         <action id="ſ">
             <when state="none" output="ſ"/>
             <when state="DOT ABOVE" output="ẛ"/>
+            <when state="Superscript letters" output="ᷥ"/>
         </action>
         <action id="ƒ">
             <when state="none" next="RING ABOVE"/>
+            <when state="RING ABOVE" output="˚"/>
         </action>
         <action id="ˆ">
             <when state="none" next="CIRCUMFLEX"/>
+            <when state="CIRCUMFLEX" output="^"/>
         </action>
         <action id="˙">
             <when state="none" next="Superscript letters"/>
         </action>
         <action id="˜">
             <when state="none" next="TILDE"/>
-        </action>
-        <action id="˝">
-            <when state="none" next="DOUBLE ACUTE"/>
+            <when state="TILDE" output="˜"/>
         </action>
         <action id="∆">
             <when state="none" next="DOUBLE ACUTE"/>
-        </action>
-        <action id="∫">
-            <when state="none" next="ACUTE ACCENT"/>
+            <when state="DOUBLE ACUTE" output="˝"/>
         </action>
         <action id="≤">
             <when state="none" next="CEDILLA/COMMA BELOW"/>
+            <when state="CEDILLA/COMMA BELOW" output="¸"/>
         </action>
         <action id="≥">
             <when state="none" next="DOT ABOVE"/>
+            <when state="DOT ABOVE" output="˙"/>
         </action>
     </actions>
     <terminators>
@@ -1639,6 +1852,7 @@
         <when state="DOUBLE ACUTE" output="˝"/>
         <when state="GRAVE ACCENT" output="`"/>
         <when state="MACRON" output="¯"/>
+        <when state="Modifier letters" output=""/>
         <when state="OGONEK" output="˛"/>
         <when state="RING ABOVE" output="˚"/>
         <when state="Superscript letters" output=" ͯ"/>
